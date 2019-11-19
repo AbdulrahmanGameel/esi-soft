@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <div id="app" style="text-align: right">
+  <div id="main" style="text-align: right">
     @include('inc.header')
     <div class="sidebar">
       @include('inc.sidebar')
