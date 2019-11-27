@@ -14,7 +14,6 @@
 
   <!-- Custom fonts for this template -->
 
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
     type="text/css">
 
@@ -29,22 +28,19 @@
 </head>
 
 <body>
-  <div id="main" style="text-align: right">
-    @include('inc.header')
-    <div class="sidebar">
-      @include('inc.sidebar')
-    </div>
-    <main class=" container">
-      <div class="row">
-
-        
-        <div class="col col-md-11">
-          @yield('content')
-
-        </div>
+  <main>
+    <div id="app" style="text-align: right">
+      @include('inc.header')
+      <div class="sidebar">
+        @include('inc.sidebar')
       </div>
-    </main>
-  </div>
+
+      <div id="content">
+
+        @yield('content')
+      </div>
+    </div>
+  </main>
 
 
   @include('inc.footer')

@@ -1,7 +1,7 @@
 <div style=" direction: rtl;">
-  <nav class="navigation navbar navbar-expand-md navbar-dark bg-dark">
-    <span class="navbar-brand sidebar-burger" onclick="manageNav()">&#9776;</span>
-    <a class="navbar-brand" href="/">إيزي سوفت</a>
+  <nav id="navbar" class="navigation navbar navbar-expand-md navbar-dark bg-dark">
+    <span class="navbar-brand sidebar-burger" onclick="BurgerBtnClicked()">&#9776; <a class="navbar-brand" href="/">إيزي سوفت</a></span>
+    
   </nav>
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

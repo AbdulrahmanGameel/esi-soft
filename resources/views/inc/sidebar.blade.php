@@ -14,7 +14,7 @@
                     الرئيسية
 
                 </span>
-                
+
             </a>
 
         </li>
@@ -32,41 +32,41 @@
                 </span>
 
             </a>
-        
-            <li class="nav-item">
-
-                <a class="nav-link  {{ (Request::is('restaurant')) ? 'active' : '' }}" href="restaurant">
-
-                    <span class="iconify sidebar-sub-ico" data-icon="emojione-monotone:fork-and-knife-with-plate"
-                        data-inline="false"></span>
-
-                    <span class="sidebar-sub-text">
-
-                        مطاعم
-
-                    </span>
-
-                </a>
-
-            </li>
-
-            <li class="nav-item">
-
-                <a class="nav-link{{ (Request::is('supermarket')) ? 'active' : '' }}" href="supermarket">
-
-                    <span class="iconify sidebar-sub-ico" data-icon="dashicons:products" data-inline="false"></span>
-
-                    <span class="sidebar-sub-text">
-
-                        سوبر ماركت
-
-                    </span>
-
-                </a>
-
-            </li>
-            
         </li>
+        <li class="nav-item">
+
+            <a class="nav-link  {{ (Request::is('restaurant')) ? 'active' : '' }}" href="restaurant">
+
+                <span class="iconify sidebar-sub-ico" data-icon="emojione-monotone:fork-and-knife-with-plate"
+                    data-inline="false"></span>
+
+                <span class="sidebar-sub-text">
+
+                    مطاعم
+
+                </span>
+
+            </a>
+
+        </li>
+
+        <li class="nav-item">
+
+            <a class="nav-link{{ (Request::is('supermarket')) ? 'active' : '' }}" href="supermarket">
+
+                <span class="iconify sidebar-sub-ico" data-icon="dashicons:products" data-inline="false"></span>
+
+                <span class="sidebar-sub-text">
+
+                    سوبر ماركت
+
+                </span>
+
+            </a>
+
+        </li>
+
+
         <li class="nav-item">
 
             <a class="nav-link {{ (Request::is('clients')) ? 'active' : '' }}" href="clients">
@@ -99,6 +99,21 @@
 
         </li>
 
+        <li class="nav-item">
+    
+            <a class="dropdown-btn nav-link">
+                <span class="iconify  sidebar-ico" data-icon="ps:cart-supermarket" data-inline="false"></span>
+                <span class="sidebar-text">
+
+                    Dropdown
+                </span>
+            </a>
+            <div class="dropdown-container">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </li>
     </ul>
 
 </div>

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 @section('content')
+
+
+  
+
 <!-- Masthead -->
 <header class=" text-center">
   <div class="container">
@@ -115,17 +119,16 @@
         <h2>برنامج إدارة السوبر ماركت</h2>
       </div>
     </div>
+  </a>
 </div>
-</a>
+<div class="row text-center">
 
-<a class=" container col-md-11  text-center" href="our_products">
-  <div class=" custom-height card card-clickable">
-    <br>
-    <br>
-    <br>
-    <h1>جميع منتاجتنا</h1>
-  </div>
-</a>
+  <a class=" container col-md-12  text-center" href="our_products">
+    <div class=" custom-height card card-clickable">
+      <h1>جميع منتاجتنا</h1>
+    </div>
+  </a>
+</div>
 
 </div>
 
